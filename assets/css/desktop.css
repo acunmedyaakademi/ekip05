@@ -1,50 +1,61 @@
 /* Hero Area Start */
-
+/* list  start*/
+.hero-area {
+  width: 100%;
+  height: 96px;
+}
+.navigation ul li {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+}
+.navigation ul li a {
+  color: #272d37;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation ul {
+  display: flex;
+  gap: 32px;
+}
+.users button {
+  width: 94px;
+  height: 46px;
+  padding: 12px 18px;
+}
 /* Hero Area End */
-
-
 
 /* Channels Review Area Start */
 
 /* Channels Review Area End */
 
-
-
-
 /* Product Features Area Start */
 
 /* Product Features Area End */
-
-
 
 /* Branding Blue Area Start */
 
 /* Branding Blue Area End */
 
-
-
 /* Branding White Area Start */
 
 /* Branding White Area End */
-
 
 /* Blog Area Start */
 
 /* Blog Area End */
 
-
-
 /* Customers Say Area Start */
 
 /* Customers Say Area End */
 
-
-
 /* Submit Area Start */
 
 /* Submit Area End */
-
-
 
 /* Footer Area Start */
 
