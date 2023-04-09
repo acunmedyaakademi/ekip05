@@ -54,7 +54,7 @@
 }
 
 .blog-cards {
-    gap: 32px;
+    gap: 31px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
