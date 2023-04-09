@@ -67,7 +67,13 @@
 }
 
 .blog-avatar {
-    position: absolute;
+    position: absolute; 
+    right: 32px;
+    top: 224px;
+}
+
+.blog-card-img {
+    position: relative;
 }
 
 .blog-card-img img {
