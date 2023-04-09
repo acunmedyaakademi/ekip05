@@ -6,34 +6,42 @@
   }
 
   /* Hero Area Start */
-
+  #menu-icon {
+    display: block;
+    color: #272d37;
+  }
+  .navigation ul {
+    display: none;
+  }
+  .users {
+    display: none;
+  }
   /* Hero Area End */
 
-
-
   /* Channels Review Area Start */
-
+  .title {
+    width: 672px;
+  }
+  .cards {
+    margin-left: 6px;
+    gap: 22px;
+  }
+  .card {
+    width: 336px;
+  }
   /* Channels Review Area End */
-
-
 
   /* Product Features Area Start */
 
   /* Product Features Area End */
 
-
-
   /* Branding Blue Area Start */
 
   /* Branding Blue Area End */
 
-
-
   /* Branding White Area Start */
 
   /* Branding White Area End */
-
-
 
   /* Blog Area Start */
   .blog-header{
@@ -59,8 +67,6 @@
   }
   /* Blog Area End */
 
-
-
   /* Customers Say Area Start */
 
   .customer-header {
@@ -81,13 +87,9 @@
 
   /* Customers Say Area End */
 
-
-
   /* Submit Area Start */
 
   /* Submit Area End */
-
-  
 
   /* Footer Area Start */
 

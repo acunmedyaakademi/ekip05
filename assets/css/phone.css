@@ -9,31 +9,35 @@
 
   /* Hero Area End */
 
-
-
   /* Channels Review Area Start */
-
+  .title {
+    width: 341px;
+    height: 423px;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .buttons {
+    display: grid;
+  }
+  .RedefiningProductFeatures {
+    display: none;
+  }
   /* Channels Review Area End */
-
-
 
   /* Product Features Area Start */
 
   /* Product Features Area End */
 
-
-
   /* Branding Blue Area Start */
 
   /* Branding Blue Area End */
 
-
-
   /* Branding White Area Start */
 
   /* Branding White Area End */
-
-
 
   /* Blog Area Start */
   .blog-header{
@@ -62,8 +66,6 @@
 
   /* Blog Area End */
 
-
-
   /* Customers Say Area Start */
   .customer-header h2 {
     font-size: 24px;
@@ -89,17 +91,11 @@
   }
   /* Customers Say Area End */
 
-
-
   /* Submit Area Start */
 
   /* Submit Area End */
 
-
-
   /* Footer Area Start */
 
   /* Footer Area End */
-
-  
 }
