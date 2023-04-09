@@ -1,4 +1,10 @@
-@media (max-width: 704px) {
+@media (max-width: 768px) {
+
+  .container {
+    margin: 0 auto;
+    max-width: 704px;
+  }
+
   /* Hero Area Start */
 
   /* Hero Area End */
@@ -30,12 +36,48 @@
 
 
   /* Blog Area Start */
+  .blog-header{
+    padding: 48px 0 32px;
+  }
 
+  .blog-header p {
+    width: 100%;
+  }
+
+  .blog-cards {
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 32px;
+  }
+
+  .blog-card {
+    width: 336px;
+  }
+
+  .blog-card-under {
+    width: 272px;
+  }
   /* Blog Area End */
 
 
 
   /* Customers Say Area Start */
+
+  .customer-header {
+    padding: 40px 0;
+  }
+
+  .customer-header p {
+    width: 100%;
+  }
+
+  .custumer-under-card p {
+    width: 209px;
+  } 
+
+  .divider {
+    display: none;
+  }
 
   /* Customers Say Area End */
 
