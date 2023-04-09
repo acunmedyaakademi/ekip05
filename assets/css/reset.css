@@ -187,15 +187,5 @@ h6 {
 
 .container {
   margin: 0 auto;
-  max-width: 1215px;
-}
-
-.tablet-container {
-  margin: 0 auto;
-  max-width: 704;
-}
-
-.phone-container {
-  margin: 0 auto;
-  max-width: 345px;
+  max-width: 1216px;
 }

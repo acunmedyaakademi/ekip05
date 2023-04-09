@@ -31,7 +31,7 @@
 /* Blog Area Start */
 
 .blog-header {
-    padding: 64px 0 64px;
+    padding: 64px 0;
 }
 
 .blog-header h2 {
@@ -49,14 +49,15 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.1px;
-     color: #5F6D7E;
+    color: #5F6D7E;
     width: 800px;
 }
 
 .blog-cards {
-    justify-content: space-around;
+    gap: 32px;
+    justify-content: center;
     display: flex;
-    gap: 32px; 
+    flex-wrap: wrap;
     margin-bottom: 69px;
 }
 
@@ -64,6 +65,7 @@
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 10px;    
     border: 1px solid #EAEBF0;
+    width: 384px;
 }
 
 .blog-avatar {
@@ -82,6 +84,7 @@
 
 .blog-card-under {
     margin: 24px 32px;
+    width: 320px;
 }
 
 .article {
@@ -146,6 +149,56 @@
 
 
 /* Customers Say Area Start */
+
+.customer-header {
+    padding: 64px 0;
+}
+
+/* .divider {
+    border: 1px solid #EAEBF0;
+    transform: rotate(20deg);
+} */
+
+.customer-header h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.customer-header p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    width: 800px;
+    margin: 16px auto;
+}
+
+.custumer-under-card img {
+    margin: 0 auto;
+}
+
+.customer-under {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+    justify-content: space-around;
+}
+
+.custumer-under-card p {
+    margin-top: 16px;
+    width: 316px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #272D37;
+}
 
 /* Customers Say Area End */
 
