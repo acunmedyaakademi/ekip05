@@ -16,10 +16,10 @@
   background-color: #2b63d9;
   padding: 64px 0px;
   gap: 64px;
-  width: 1440px;
   height: 688px;
+  margin-top: 10px;
 }
-.container {
+.containr {
   display: flex;
   align-items: center;
   width: 1280px;
@@ -31,8 +31,7 @@
   color: white;
   font-size: 30px;
 }
-
-div p {
+.box {
   width: 576px;
   height: 126px;
   font-family: "Inter";
@@ -44,8 +43,9 @@ div p {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 30px;
 }
-div h5 {
+.branding h5 {
   width: 146px;
   height: 20px;
   font-family: "Inter";
@@ -60,7 +60,7 @@ div h5 {
   flex-grow: 0;
 }
 
-div .Velit {
+.Velit {
   width: 576px;
   height: 72px;
   font-family: "Inter";
@@ -68,15 +68,14 @@ div .Velit {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: -0.1px;
   color: #b1ccfb;
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+  margin-top: 20px;
 }
-
-.button {
+.buttonn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -93,6 +92,7 @@ div .Velit {
   font-family: "Inter";
   font-style: normal;
   color: aliceblue;
+  margin-top: 20px;
 }
 
 /* Branding Blue Area End */
@@ -106,14 +106,14 @@ div .Velit {
   align-items: center;
   padding: 64px 0px;
   gap: 64px;
-  width: 1440px;
   height: 688px;
   background: #fafbfc;
   flex: none;
   order: 4;
   flex-grow: 0;
+  margin-top: 10px;
 }
-.branding-white h6 {
+.demons h6 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -126,7 +126,7 @@ div .Velit {
   flex-grow: 0;
 }
 
-.branding-white p {
+.demons p {
   width: 532px;
   height: 72px;
   font-family: "Inter";
@@ -141,7 +141,7 @@ div .Velit {
   align-self: stretch;
   flex-grow: 0;
 }
-ul {
+.demons ul {
   width: 506px;
   height: 24px;
   font-family: "Inter";

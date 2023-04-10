@@ -19,12 +19,14 @@
   .branding-blue {
     width: 768px;
     height: 850px;
+    display: flex;
   }
 
   /* Branding White Area Start */
   .branding-white {
     width: 768px;
     height: 842px;
+    display: flex;
   }
   /* Branding White Area End */
 

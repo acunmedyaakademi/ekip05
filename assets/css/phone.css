@@ -1,7 +1,7 @@
 @media (max-width: 345px) {
   .container {
     margin: 0 auto;
-    max-width: 375px;
+    max-width: 345px;
   }
   /* Hero Area Start */
 
@@ -19,12 +19,14 @@
   .branding-blue {
     width: 343px;
     height: 343px;
+    display: flex;
   }
   /* Branding Blue Area End */
   /* Branding White Area Start */
   .branding-white {
     width: 375px;
     height: 825px;
+    display: flex;
   }
   /* Branding White Area End */
 
