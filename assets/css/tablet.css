@@ -14,7 +14,11 @@
 
   /* Channels Review Area Start */
   .title {
-    width: 672px;
+    width: auto;
+    height: auto;
+  }
+  .title2 {
+    width: auto;
   }
   .cards {
     margin-left: 6px;
@@ -22,6 +26,18 @@
   }
   .card {
     width: 336px;
+  }
+  .detail {
+    height: 986px;
+    background-image: url(../img/paying2.png);
+    background-size: 100%;
+    background-position: 0 0;
+  }
+  .all-changes {
+    display: none;
+  }
+  .write h6 {
+    margin-top: 291px;
   }
   /* Channels Review Area End */
 

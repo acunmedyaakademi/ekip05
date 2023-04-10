@@ -8,6 +8,13 @@ hr {
   height: 96px;
   background-color: #f8f9fb;
 }
+.hero-area2 {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/background.png);
+  background-image: url(../img/background2-3.png);
+  background-repeat: no-repeat;
+}
 .navigation {
   display: flex;
   width: 640px;
@@ -34,7 +41,7 @@ hr {
   align-items: center;
   justify-content: space-between;
   height: 86px;
-  background-color: #f8f9fb;
+  background: none;
 }
 .navigation ul {
   display: flex;
@@ -55,6 +62,16 @@ hr {
 .title h1 {
   align-items: center;
 }
+.title2 {
+  text-align: center;
+  margin: 0 auto;
+  height: 356px;
+  padding: 50px 0;
+  width: 684px;
+}
+.title2 h1 {
+  align-items: center;
+}
 .buttons {
   margin-top: 36px;
 }
@@ -66,6 +83,7 @@ hr {
 .our-channels-review {
   background-color: #f8f9fb;
 }
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -109,6 +127,10 @@ hr {
 .detail {
   display: flex;
   align-items: center;
+  height: 580px;
+  background-image: url(../img/paying.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 .write {
   gap: 16px;
