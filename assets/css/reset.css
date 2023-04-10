@@ -60,7 +60,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a{
   overflow-wrap: break-word;
   font-family: "Inter", sans-serif;
 }
@@ -243,4 +244,11 @@ p {
 .container {
   margin: 0 auto;
   max-width: 1215px;
+}
+
+
+
+.phone-container {
+  margin: 0 auto;
+  max-width: 345px;
 }
