@@ -8,13 +8,7 @@ hr {
   height: 96px;
   background-color: #f8f9fb;
 }
-.hero-area2 {
-  width: 100%;
-  height: 600px;
-  background-image: url(../img/background.png);
-  background-image: url(../img/background2-3.png);
-  background-repeat: no-repeat;
-}
+
 .navigation {
   display: flex;
   width: 640px;
