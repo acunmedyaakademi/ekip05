@@ -2,49 +2,179 @@
 
 /* Hero Area End */
 
-
-
 /* Channels Review Area Start */
 
 /* Channels Review Area End */
-
-
-
 
 /* Product Features Area Start */
 
 /* Product Features Area End */
 
-
-
 /* Branding Blue Area Start */
+
+.branding-blue {
+  background-color: #2b63d9;
+  padding: 64px 0px;
+  gap: 64px;
+  width: 1440px;
+  height: 688px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  padding: 0px 32px;
+  flex-direction: row;
+  gap: 80px;
+}
+.item {
+  color: white;
+  font-size: 30px;
+}
+
+div p {
+  width: 576px;
+  height: 126px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+div h5 {
+  width: 146px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+div .Velit {
+  width: 576px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #b1ccfb;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+  gap: 6px;
+  width: 133px;
+  height: 46px;
+  background: #437ef7;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  color: aliceblue;
+}
 
 /* Branding Blue Area End */
 
-
-
 /* Branding White Area Start */
 
-/* Branding White Area End */
+.branding-white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0px;
+  gap: 64px;
+  width: 1440px;
+  height: 688px;
+  background: #fafbfc;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+.branding-white h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #272d37;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
 
+.branding-white p {
+  width: 532px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #5f6d7e;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+ul {
+  width: 506px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f6d7e;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.branding-white img {
+  width: 560px;
+  height: 560px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+/* Branding White Area End */
 
 /* Blog Area Start */
 
 /* Blog Area End */
 
-
-
 /* Customers Say Area Start */
 
 /* Customers Say Area End */
 
-
-
 /* Submit Area Start */
 
 /* Submit Area End */
-
-
 
 /* Footer Area Start */
 

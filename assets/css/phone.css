@@ -1,55 +1,46 @@
 @media (max-width: 345px) {
+  .container {
+    margin: 0 auto;
+    max-width: 375px;
+  }
   /* Hero Area Start */
 
   /* Hero Area End */
-
-
 
   /* Channels Review Area Start */
 
   /* Channels Review Area End */
 
-
-
   /* Product Features Area Start */
 
   /* Product Features Area End */
 
-
-
   /* Branding Blue Area Start */
-
+  .branding-blue {
+    width: 343px;
+    height: 343px;
+  }
   /* Branding Blue Area End */
-
-
-
   /* Branding White Area Start */
-
+  .branding-white {
+    width: 375px;
+    height: 825px;
+  }
   /* Branding White Area End */
-
-
 
   /* Blog Area Start */
 
   /* Blog Area End */
 
-
-
   /* Customers Say Area Start */
 
   /* Customers Say Area End */
-
-
 
   /* Submit Area Start */
 
   /* Submit Area End */
 
-
-
   /* Footer Area Start */
 
   /* Footer Area End */
-
-  
 }
