@@ -16,17 +16,46 @@
   /* Product Features Area End */
 
   /* Branding Blue Area Start */
-  .branding-blue {
+  .containr {
     width: 343px;
     height: 343px;
-    display: flex;
   }
+  .branding h5 {
+    width: 146px;
+    height: 20px;
+  }
+  .box {
+    width: 343px;
+    height: 144px;
+  }
+
+  .Velit {
+    width: 343px;
+    height: 120px;
+  }
+
+  .button {
+    width: 133px;
+    height: 46px;
+  }
+
   /* Branding Blue Area End */
   /* Branding White Area Start */
-  .branding-white {
-    width: 375px;
-    height: 825px;
-    display: flex;
+  .demons img {
+    width: 343px;
+    height: 343px;
+  }
+  .demons h6 {
+    width: 146px;
+    height: 20px;
+  }
+  .demons p {
+    width: 343px;
+    height: 144px;
+  }
+  .Demons {
+    width: 343px;
+    height: 120px;
   }
   /* Branding White Area End */
 
