@@ -1,4 +1,8 @@
 @media (max-width: 704px) {
+  .container {
+    margin: 0 auto;
+    max-width: 704px;
+  }
   /* Hero Area Start */
   #menu-icon {
     display: block;
@@ -46,15 +50,42 @@
   /* Product Features Area End */
 
   /* Branding Blue Area Start */
+  .containr {
+    width: 704px;
+    height: 460px;
+  }
+  .branding h5 {
+    width: 146px;
+    height: 20px;
+  }
+  .box {
+    width: 704px;
+    height: 84px;
+  }
 
   /* Branding Blue Area End */
 
   /* Branding White Area Start */
-
+  .demons img {
+    width: 704px;
+    height: 460px;
+  }
+  .demons h6 {
+    width: 146px;
+    height: 20px;
+  }
+  .demons p {
+    width: 704px;
+    height: 84px;
+  }
+  .Demons {
+    width: 704px;
+    height: 48px;
+  }
   /* Branding White Area End */
 
   /* Blog Area Start */
-  .blog-header{
+  .blog-header {
     padding: 48px 0 32px;
   }
 
@@ -64,7 +95,7 @@
 
   .blog-cards {
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 32px;
   }
 
@@ -89,7 +120,7 @@
 
   .custumer-under-card p {
     width: 209px;
-  } 
+  }
 
   .divider {
     display: none;
@@ -106,8 +137,8 @@
     margin: 0 auto;
     max-width: 704px;
   }
-  .input-area input{
-    width: 552px
+  .input-area input {
+    width: 552px;
   }
   .input-area {
     padding-bottom: 40px;
@@ -115,7 +146,7 @@
   .text-area {
     flex-basis: 90%;
   }
-  
+
   /* Submit Area End */
 
   /* Footer Area Start */
@@ -138,10 +169,10 @@
   .tablet-footer {
     display: block;
   }
-  
+
   .footer-area {
     display: none;
-  }  
+  }
   .copyrate {
     display: none;
   }
@@ -154,15 +185,14 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
-  
   }
 
-  .up-footer img{
+  .up-footer img {
     padding-bottom: 30px;
   }
 
   .up-table {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,15 +202,15 @@
     padding-top: 20px;
   }
 
-  .logo p{
+  .logo p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.10000000149011612px;
-    color: #5F6D7E;
+    color: #5f6d7e;
   }
 
-  .up-table h6{
+  .up-table h6 {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -188,17 +218,17 @@
     padding-bottom: 24px;
   }
 
-  .up-table a{
+  .up-table a {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.10000000149011612px;
-    color: #5F6D7E;
+    color: #5f6d7e;
     text-decoration: none;
     padding-bottom: 12px;
   }
 
-  .down-table h6{
+  .down-table h6 {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -206,12 +236,12 @@
     padding-bottom: 24px;
   }
 
-  .down-table a{
+  .down-table a {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.10000000149011612px;
-    color: #5F6D7E;
+    color: #5f6d7e;
     text-decoration: none;
     padding-bottom: 12px;
   }
@@ -233,7 +263,7 @@
     justify-content: center;
   }
 
-  .footer-icon img{
+  .footer-icon img {
     width: 24px;
     height: 25.71px;
   }
@@ -243,13 +273,12 @@
     justify-content: space-between;
   }
 
-  .copyrate-area p{
+  .copyrate-area p {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: -0.10000000149011612px;
-    color: #5F6D7E;
-
+    color: #5f6d7e;
   }
 
   .footer-social {
@@ -259,11 +288,8 @@
     justify-content: center;
   }
 
-  .footer-social img{
+  .footer-social img {
     gap: 20px;
   }
   /* Footer Area End */
-
-  
-
 }
