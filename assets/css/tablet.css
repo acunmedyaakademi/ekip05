@@ -40,6 +40,9 @@
   .all-changes {
     display: none;
   }
+  .write {
+    width: auto;
+  }
   .write h6 {
     margin-top: 291px;
   }

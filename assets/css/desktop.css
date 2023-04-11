@@ -122,14 +122,23 @@ hr {
 .detail {
   display: flex;
   align-items: center;
-  display: flex;
-  align-items: center;
   height: 580px;
-  background-image: url(./img/paying.png);
+  background-image: url(../img/paying.png);
   background-repeat: no-repeat;
   background-position: 100%;
 }
-
+.write {
+  width: 50%;
+}
+.write h3 {
+  margin-bottom: 16px;
+}
+.write p {
+  margin-bottom: 40px;
+}
+.write h6 {
+  color: #2b63d9;
+}
 /* Product Features Area End */
 
 /* Branding Blue Area Start */
