@@ -59,10 +59,11 @@ hr {
 .title2 {
   text-align: center;
   margin: 0 auto;
-  height: 356px;
+  height: 238px;
   padding: 50px 0;
   width: 684px;
 }
+
 .title2 h1 {
   align-items: center;
 }
