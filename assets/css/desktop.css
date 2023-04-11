@@ -119,6 +119,12 @@ hr {
 
 /* Product Features Area Start */
 
+.detail {
+  display: flex;
+  align-items: center;
+
+}
+
 /* Product Features Area End */
 
 /* Branding Blue Area Start */
@@ -133,7 +139,6 @@ hr {
 .containr {
   display: flex;
   align-items: center;
-  width: 1280px;
   padding: 0px 32px;
   flex-direction: row;
   gap: 80px;

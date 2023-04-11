@@ -1,4 +1,4 @@
-@media (max-width: 345px) {
+@media (max-width: 375px) {
   .container {
     margin: 0 auto;
     max-width: 345px;
@@ -150,7 +150,8 @@
   .container {
     margin: 0 auto;
     max-width: 345px;
-  }
+  } 
+  
   .text-area h5 {
     font-size: 28px;
     font-weight: 600;
@@ -162,7 +163,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .input-area input {
+    width: 303px;
     width: auto;
     border-radius: 6px;
   }
