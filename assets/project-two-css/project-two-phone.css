@@ -1,4 +1,4 @@
-@media (max-width: 345px) {
+@media (max-width: 375px) {
   .container {
     margin: 0 auto;
     max-width: 345px;
@@ -22,6 +22,9 @@
 
   /* Supporters Start */
 
+  .pricing-card {
+    width:343px;
+  }
   /* Supporters End */
 
   /* Pricing Start */

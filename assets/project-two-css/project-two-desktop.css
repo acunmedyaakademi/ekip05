@@ -16,9 +16,154 @@
 
 /* Supporters Start */
 
+.supporters-header {
+  padding-top: 64px;
+  text-align: center;
+}
+
+.supporters-header h2 {
+  margin-bottom: 16px;
+}
+
+.supporters-header p {
+  /* width: 800px; */
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.supporters-bottom {
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.supporters-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.supporters-button p {
+  color: #437EF7;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.supporters-bottom img {
+  width: 100%;
+}
+
+.supporters-button img {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* .supporters-button img {
+  color: #437EF7;
+  margin: 0;
+} */
+
+
 /* Supporters End */
 
 /* Pricing Start */
+
+.pricing-header {
+  padding-top: 64px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.pricing-header h2 {
+  margin-bottom: 16px;
+}
+
+.pricing-header p {
+  /* width: 800px; */
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.pricing-cards {
+  gap: 32px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-card {
+  width: 383px;
+  padding: 32px;
+  text-align: center;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+
+.pricing-card h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.pricing-card-button {
+  padding: 2px 8px;
+  background: #5390F8;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.pricing-card-header h2 {
+  margin-bottom: 4px;
+}
+
+.pricing-card-header p {
+  color: #5F6D7E;
+}
+
+.pricing-card-icon {
+  display: flex;
+  gap: 8px;
+}
+
+.ricing-card-icon p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #272D37;
+}
+
+.pricing-card-button2 {
+  cursor: pointer;
+  gap: 6px;
+  padding: 12px 115px;
+  color: white;
+  display: flex;
+  background: #437EF7;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 6px;
+  margin-top: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+
 
 /* Pricing End */
 
