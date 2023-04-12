@@ -28,7 +28,7 @@
   margin: 0 auto;
   height: 238px;
   padding: 50px 0;
-  width: 684px;
+  width: auto;
 }
 
 .title2 h1 {
@@ -37,6 +37,7 @@
 .info {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 .info1 {
   width: 588px;
@@ -44,7 +45,7 @@
 .info img {
   margin-bottom: 24px;
 }
-.info1 h3 {
+.info1 h4 {
   margin-bottom: 16px;
 }
 .info1 p {
@@ -52,8 +53,8 @@
 }
 .info2 {
   display: flex;
-  width: 588px;
-  height: 118px;
+  max-width: 588px;
+  height: auto;
   margin-bottom: 32px;
 }
 .info-area {
