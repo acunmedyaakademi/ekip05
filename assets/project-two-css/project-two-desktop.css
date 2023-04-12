@@ -23,13 +23,58 @@
 /* Pricing End */
 
 /* Latest Blogs Start */
+.title2 {
+  text-align: center;
+  margin: 0 auto;
+  height: 238px;
+  padding: 50px 0;
+  width: auto;
+}
 
+.title2 h1 {
+  align-items: center;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.info1 {
+  width: 588px;
+}
+.info img {
+  margin-bottom: 24px;
+}
+.info1 h4 {
+  margin-bottom: 16px;
+}
+.info1 p {
+  margin-bottom: 16px;
+}
+.info2 {
+  display: flex;
+  max-width: 588px;
+  height: auto;
+  margin-bottom: 32px;
+}
+.info-area {
+  display: block;
+}
+.info-write {
+  margin-left: 12px;
+}
+.info-write h4 {
+  margin-bottom: 4px;
+}
+.info-write p {
+  margin-bottom: 16px;
+}
 /* Latest Blogs End */
 
 /* Communication Start */
 .communication {
   width: auto;
-  height: 284px;
+  height: auto;
   background-color: #2b63d9;
   display: flex;
 }
@@ -64,12 +109,13 @@
 .write p {
   color: #b1ccfb;
 }
+
 /* Communication End */
 
 /* Footer Start */
 footer {
   width: 100%;
-  height: 364px;
+  height: auto;
   background-color: #151b28;
 }
 .foot {
@@ -82,6 +128,7 @@ footer {
   font-size: 16px;
   line-height: 24px;
   line-height: 5;
+  margin-right: 15px;
 }
 .foot ul a {
   color: #f9f9f9;
@@ -93,6 +140,7 @@ footer {
   line-height: 24px;
   line-height: 2;
 }
+
 .foot li a {
   color: #a5acba;
 }
