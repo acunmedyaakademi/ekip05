@@ -1,61 +1,79 @@
-@media (max-width: 704px) { 
-    .container {
-        margin: 0 auto;
-        max-width: 704px;
-      }
-      
-      
-/* Hero Area Start */
+@media (max-width: 704px) {
+  .container {
+    margin: 0 auto;
+    max-width: 704px;
+  }
 
-/* Hero Area End */
+  /* Hero Area Start */
 
+  /* Hero Area End */
 
+  /* Easy Study Start */
 
-/* Easy Study Start */
+  /* Easy Study End */
 
-/* Easy Study End */
+  /* Product Features Start */
 
+  /* Product Features End */
 
+  /* Brand Awareness Start */
 
-/* Product Features Start */
+  /* Brand Awareness End */
 
-/* Product Features End */
+  /* Supporters Start */
 
+  /* Supporters End */
 
+  /* Pricing Start */
 
-/* Brand Awareness Start */
+  /* Pricing End */
 
-/* Brand Awareness End */
+  /* Latest Blogs Start */
+  .info {
+    display: block;
+    padding: 0 32px;
+  }
+  .info1 {
+    width: auto;
+  }
+  /* Latest Blogs End */
 
+  /* Communication Start */
 
+  .communicate {
+    display: block;
+  }
+  .write {
+    width: 100%;
+  }
+  .input-area {
+    padding: 0 35px;
+  }
+  .input-area input {
+    width: 80%;
+  }
+  /* Communication End */
 
-/* Supporters Start */
-
-/* Supporters End */
-
-
-
-/* Pricing Start */
-
-/* Pricing End */
-
-
-
-/* Latest Blogs Start */
-
-/* Latest Blogs End */
-
-
-
-/* Communication Start */
-
-/* Communication End */
-
-
-
-/* Footer Start */
-
-/* Footer End */
-
-
+  /* Footer Start */
+  .foot {
+    flex-wrap: wrap;
+  }
+  .copyright {
+    display: block;
+  }
+  .copy {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .logo {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+  .social {
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 300px;
+  }
+  /* Footer End */
 }

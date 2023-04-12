@@ -1,4 +1,8 @@
-@media (max-width: 345px) {
+@media (max-width: 375px) {
+  .container {
+    margin: 0 auto;
+    max-width: 345px;
+  }
   /* Hero Area Start */
 
   /* Hero Area End */
@@ -47,15 +51,52 @@
   /* Product Features Area End */
 
   /* Branding Blue Area Start */
+  .containr {
+    width: 343px;
+    height: 343px;
+  }
+  .branding h5 {
+    width: 146px;
+    height: 20px;
+  }
+  .box {
+    width: 343px;
+    height: 144px;
+  }
+
+  .Velit {
+    width: 343px;
+    height: 120px;
+  }
+
+  .button {
+    width: 133px;
+    height: 46px;
+  }
 
   /* Branding Blue Area End */
 
   /* Branding White Area Start */
-
+  .demons img {
+    width: 343px;
+    height: 343px;
+  }
+  .demons h6 {
+    width: 146px;
+    height: 20px;
+  }
+  .demons p {
+    width: 343px;
+    height: 144px;
+  }
+  .Demons {
+    width: 343px;
+    height: 120px;
+  }
   /* Branding White Area End */
 
   /* Blog Area Start */
-  .blog-header{
+  .blog-header {
     padding: 32px 0 24px;
   }
 
@@ -65,7 +106,7 @@
 
   .blog-cards {
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 16px;
   }
 
@@ -99,10 +140,9 @@
   .customer-under {
     gap: 90px;
   }
-  
+
   .custumer-under-card p {
     width: 100%;
-
   }
   /* Customers Say Area End */
 
@@ -110,22 +150,26 @@
   .container {
     margin: 0 auto;
     max-width: 345px;
-  }
-  .text-area h5{
+  } 
+  
+  .text-area h5 {
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
     letter-spacing: -0.02em;
   }
   .input-area {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .input-area input{
-    width: 311px;
+
+  .input-area input {
+    width: 303px;
+    width: auto;
+    border-radius: 6px;
   }
-  .input-area a{
+  .input-area a {
     width: 311px;
   }
   /* Submit Area End */
@@ -143,11 +187,11 @@
     display: none;
   }
 
-  .footer-up .logo{
+  .footer-up .logo {
     padding-bottom: 22px;
   }
 
-  .footer-up p{
+  .footer-up p {
     padding-bottom: 24px;
   }
 
@@ -171,24 +215,24 @@
     padding-bottom: 24px;
   }
 
-  .copyrate-phone p{
+  .copyrate-phone p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.10000000149011612px;
-    color: #5F6D7E;
+    color: #5f6d7e;
   }
-    
+
   .copyrate-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-    
-  .copyrate-phone img{
+
+  .copyrate-phone img {
     width: 24px;
     height: 25.71px;
   }
-  
+
   /* Footer Area End */
 }
